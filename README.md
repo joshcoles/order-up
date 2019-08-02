@@ -56,9 +56,13 @@ This project is licensed under the MIT License.
 
 * **Toggle Button Inspiration** - [https://codepen.io/mburnette/pen/LxNxNg](https://codepen.io/mburnette/pen/LxNxNg)
 
-
 ## Screenshots
 
-![Brand](./order-up/src/screenshots/screenshot-desktop.png "Brand")
-![Brand](./order-up/src/screenshots/screenshot-desktop-filter.png "Brand")
-![Brand](./order-up/src/screenshots/screenshot-mobile.png "Brand")
+### Desktop View
+![Desktop](./order-up/src/screenshots/screenshot-desktop.png "Desktop")
+
+### Desktop View - Filter
+![Desktop Filter](./order-up/src/screenshots/screenshot-desktop-filter.png "Desktop Filter")
+
+### Mobile View
+![Mobile](./order-up/src/screenshots/screenshot-mobile.png "Mobile")
