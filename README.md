@@ -1,3 +1,5 @@
+![Brand](./order-up/src/screenshots/brand.png "Brand")
+
 # Order Up
 
 Welcome to *Order Up*, a simple and efficient application built to support agencies in managing internal tickets and tasks. *Order Up* allows users to filter tickets by owner, as well as sort them by date. Each ticket holds information about the task at hand, as well as contact info for that ticket's owner.
