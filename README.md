@@ -20,6 +20,7 @@ Start by navigating to the root directory using the command line.
 
 ```
 cd order-up
+cd src
 ```
 
 Next, install all required packages using NPM.
@@ -34,8 +35,26 @@ Once your download has finished and the node_modules directory has been created,
 npm start
 ```
 
-The server will start and automatically open up a browser pointing at `
-http://localhost:3000/`
+The server will start and automatically open up a browser pointing at `http://localhost:3000/`
+
+Next, in a new terminal shell, navigate into the server directory
+
+```
+cd server
+```
+
+Just as we did in src, install all packages again here for our server, which is totally independant of our client
+
+```
+npm install
+```
+
+When installation is complete, start the server
+
+```
+npm run start
+```
+
 
 
 ## Built With
