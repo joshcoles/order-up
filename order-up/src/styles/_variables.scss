@@ -1,0 +1,11 @@
+// Colors & gradients
+$white: #FFFFFF;
+$black: #000000;
+$grey: grey;
+$dark-grey: #303030;
+$primary-accent: rgb(125,101,255);
+$secondary-accent: rgb(255,125,101);
+$accent-gradient: linear-gradient(90deg, $primary-accent 0%, $secondary-accent 100%);
+
+// Fonts
+$primary-font: 'Barlow', "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;

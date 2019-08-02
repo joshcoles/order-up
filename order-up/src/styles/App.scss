@@ -1,0 +1,72 @@
+@import 'variables';
+@import 'toggle';
+@import 'normalize';
+
+body {
+  background: $primary-accent;
+  background: $accent-gradient;
+	background: $dark-grey;
+	font-family: $primary-font;
+}
+
+.ou-outer-container {
+	padding: 15px;
+	
+	h1 {
+		color: $white;
+		font-size: 50px;
+		margin: 10px 0 0 0;
+		position: relative;
+		text-align: center;
+
+		&:after {
+			background: $accent-gradient;
+			bottom: -3px;
+			content: attr(data-text);
+			font-size: 50px;
+			left: 0;
+			position: absolute;
+			right: -5px;
+			text-align: center;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			z-index: -1;
+		}
+	}
+}
+
+// Filter and toggle
+.ou-options-container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.ou-filter-container {
+	input[type="text"] {
+		border: 2px solid $black;
+		box-sizing: border-box;
+		border-radius: 10px;
+		font-weight: bold;
+		height: 50px;
+		padding: 15px;
+		width: 100%;
+	}
+}
+
+.ou-orders-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 426px) {
+	.ou-outer-container {
+		padding: 20px;
+	}
+	.ou-options-container {
+		padding: 20px 35px 0 35px;
+	}
+}

@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+
+.ou-order {
+  border: 1px solid $black;
+  background-color: $white;
+  border-radius: 8px;
+  border: none;
+  border-radius: 10px;
+  color: $white;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  min-width: 250px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.ou-order-info span {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.ou-worker-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ou-worker-image {
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  filter: grayscale(1);
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+.ou-worker-info span {
+  display: block;
+}
+
+.ou-date {
+  bottom: 20px;
+  position: absolute;
+  left: 20px;
+}
+
+
+@media only screen and (min-width: 426px) {
+  .ou-order {
+    margin: 20px;
+  }
+}
